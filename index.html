@@ -1,0 +1,10 @@
+{% extends 'flight/layout.html' %}
+{%block body %}
+<ol>
+    {%for flight in flights %}
+    <li><a href="{% url 'flight' flight.id %}">{{flight}}</a></li>
+    {%empty%}
+    <li>No Flight available</li>
+    {%endfor%}
+</ol>
+{%endblock%}
