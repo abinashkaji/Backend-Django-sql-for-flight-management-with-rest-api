@@ -1,2 +1,3 @@
-# Django_sql
-Flight booking project
+# Django+sql
+Airlines Flight detailing and passenger booking project
+
