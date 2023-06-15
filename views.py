@@ -7,7 +7,7 @@ from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
 from datetime import datetime
 import random
-from django.contrib.auth import logout,authenticate,login
+from django.contrib.auth import logout,authenticate,login, logout
 # Create your views here.
 
 
