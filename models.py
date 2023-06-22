@@ -6,8 +6,7 @@ from random import randint
 import random
 from datetime import datetime
 from django.urls import reverse
-from django.contrib.auth.models import User as Users
-
+from django.contrib.auth.models import User as Users
 
 # # Create your models here.
 
