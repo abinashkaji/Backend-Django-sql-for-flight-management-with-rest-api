@@ -7,6 +7,7 @@ Flight {{flight.id}} Detail
     <li>Time:{{flight.duration}} min</li>
 </ul>
 Passenger: 
+
 <ol>
     {%for passenger in passengers %}
     <li>{{passenger}}</li>
@@ -24,6 +25,7 @@ Passenger:
         <option>No passenger available</option>
         {%endfor%}
     </select>
+
     <input type="submit">
 </form>
 <a href="{% url 'index' %}"> Main page</a>
